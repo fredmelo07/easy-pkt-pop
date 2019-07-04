@@ -1,0 +1,38 @@
+Objetivo:
+   Instalar automaticamente pacotes python mais usados mas que não vêm por padrão
+na instalação do interpretador.
+
+Cenário:
+   Criar um script py para adicionar pacotes será uma solução e tanto porém poderemos esbarrar em
+alguns problemas:
+      *O pip pode não estar instalado...
+      Se ele não estiver temos que instalar apenas com o nosso script. O modo de instalar o pip
+      no windows para nosso script seria baixando o arquivo "get-pip.py" porem não conheço um modo
+      de baixar algo pelo promp do windows tal como o wget (pois será utilizado o módulo "os" para
+      os feitos do script). Sendo assim, a única medida que sobra para que o código (nosso script)
+      cumpra seu propósito é por todo o conteúdo do "get-pip.py" dentro do nosso script e gerar o
+      "get-pip.py". Pode parecer algo feio mas é por isso que estamos juntos pra pensar em algo
+      melhor ou decidir deixar assim mesmo.
+
+      OBS.: "get-pip.py" possui 21493 linhas... mas tem 1.62Mb...
+
+      A presença do pip deve ser detectada automaticamente na execução do script. O OS também deve
+      ser detectado assim havendo uma variação de execução dentro do script dependendo do OS afim
+      de executar comandos específicos ao OS.
+
+      *Se o pip estiver instalado (não será preciso instala-lo =]).
+      O proximo passo seria fazer um menu listando possiveis pacotes para instalação.
+      Pacotes podem ser escolhidos pela equipe.
+      De ante-mão indico: kamene e youtube-dl.
+
+Por que fazer esse projeto em um só script.
+   Poderiamos criar algo mais sofisticado como por exemplo ter todos os pacotes no diretório do
+   script assim, poderiam ser instalados mesmo com falhas eventuais de conexão (tal como o Driver
+   Pack Solution). O get-pip.py, kamene, youtube-dl etc já poderia estar como arquivos base.
+
+   Porém creio que fazer um super script com tudo nele facilite a divulgação do arquivo sem perdas
+   mas o mais importante é a praticidade do super script ser movimentado na comunidade.
+
+   Já tenho o inicio do script. Preciso por no github e começamos...
+
+<erros na escrita deste doc devem ser desconsiderados =] >
