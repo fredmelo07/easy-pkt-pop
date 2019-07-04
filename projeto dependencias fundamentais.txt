@@ -1,38 +1,38 @@
 Objetivo:
-   Instalar automaticamente pacotes python mais usados mas que n„o vÍm por padr„o
-na instalaÁ„o do interpretador.
+   Instalar automaticamente pacotes python mais usados mas que n√£o v√™m por padr√£o
+na instala√ß√£o do interpretador.
 
-Cen·rio:
-   Criar um script py para adicionar pacotes ser· uma soluÁ„o e tanto porÈm poderemos esbarrar em
+Cen√°rio:
+   Criar um script py para adicionar pacotes ser√° uma solu√ß√£o e tanto por√©m poderemos esbarrar em
 alguns problemas:
-      *O pip pode n„o estar instalado...
-      Se ele n„o estiver temos que instalar apenas com o nosso script. O modo de instalar o pip
-      no windows para nosso script seria baixando o arquivo "get-pip.py" porem n„o conheÁo um modo
-      de baixar algo pelo promp do windows tal como o wget (pois ser· utilizado o mÛdulo "os" para
-      os feitos do script). Sendo assim, a ˙nica medida que sobra para que o cÛdigo (nosso script)
-      cumpra seu propÛsito È por todo o conte˙do do "get-pip.py" dentro do nosso script e gerar o
-      "get-pip.py". Pode parecer algo feio mas È por isso que estamos juntos pra pensar em algo
+      *O pip pode n√£o estar instalado...
+      Se ele n√£o estiver temos que instalar apenas com o nosso script. O modo de instalar o pip
+      no windows para nosso script seria baixando o arquivo "get-pip.py" porem n√£o conhe√ßo um modo
+      de baixar algo pelo promp do windows tal como o wget (pois ser√° utilizado o m√≥dulo "os" para
+      os feitos do script). Sendo assim, a √∫nica medida que sobra para que o c√≥digo (nosso script)
+      cumpra seu prop√≥sito √© por todo o conte√∫do do "get-pip.py" dentro do nosso script e gerar o
+      "get-pip.py". Pode parecer algo feio mas √© por isso que estamos juntos pra pensar em algo
       melhor ou decidir deixar assim mesmo.
 
       OBS.: "get-pip.py" possui 21493 linhas... mas tem 1.62Mb...
 
-      A presenÁa do pip deve ser detectada automaticamente na execuÁ„o do script. O OS tambÈm deve
-      ser detectado assim havendo uma variaÁ„o de execuÁ„o dentro do script dependendo do OS afim
-      de executar comandos especÌficos ao OS.
+      A presen√ßa do pip deve ser detectada automaticamente na execu√ß√£o do script. O OS tamb√©m deve
+      ser detectado assim havendo uma varia√ß√£o de execu√ß√£o dentro do script dependendo do OS afim
+      de executar comandos espec√≠ficos ao OS.
 
-      *Se o pip estiver instalado (n„o ser· preciso instala-lo =]).
-      O proximo passo seria fazer um menu listando possiveis pacotes para instalaÁ„o.
+      *Se o pip estiver instalado (n√£o ser√° preciso instala-lo =]).
+      O proximo passo seria fazer um menu listando possiveis pacotes para instala√ß√£o.
       Pacotes podem ser escolhidos pela equipe.
-      De ante-m„o indico: kamene e youtube-dl.
+      De ante-m√£o indico: kamene e youtube-dl.
 
-Por que fazer esse projeto em um sÛ script.
-   Poderiamos criar algo mais sofisticado como por exemplo ter todos os pacotes no diretÛrio do
-   script assim, poderiam ser instalados mesmo com falhas eventuais de conex„o (tal como o Driver
-   Pack Solution). O get-pip.py, kamene, youtube-dl etc j· poderia estar como arquivos base.
+Por que fazer esse projeto em um s√≥ script.
+   Poderiamos criar algo mais sofisticado como por exemplo ter todos os pacotes no diret√≥rio do
+   script assim, poderiam ser instalados mesmo com falhas eventuais de conex√£o (tal como o Driver
+   Pack Solution). O get-pip.py, kamene, youtube-dl etc j√° poderia estar como arquivos base.
 
-   PorÈm creio que fazer um super script com tudo nele facilite a divulgaÁ„o do arquivo sem perdas
-   mas o mais importante È a praticidade do super script ser movimentado na comunidade.
+   Por√©m creio que fazer um super script com tudo nele facilite a divulga√ß√£o do arquivo sem perdas
+   mas o mais importante √© a praticidade do super script ser movimentado na comunidade.
 
-   J· tenho o inicio do script. Preciso por no github e comeÁamos...
+   J√° tenho o inicio do script. Preciso por no github e come√ßamos...
 
 <erros na escrita deste doc devem ser desconsiderados =] >
